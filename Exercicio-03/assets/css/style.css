@@ -1,0 +1,68 @@
+nav {
+  background-color: white;
+  color: rgb(27, 38, 70);
+}
+
+nav li {
+  display: inline;
+  padding: 16px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+
+nav li a :hover {
+  font-size: 80px;
+  color: grey;
+}
+
+body {
+  color: white;
+  background-color: rgb(27, 38, 70);
+  background-size: 100%;
+  font-weight: bolder;
+}
+
+
+h1, h2, h4 {
+  text-align: center;
+}
+
+form {
+  background-color: white;
+  border-collapse: collapse;
+  border: solid rgb(27, 38, 70);
+  text-align: center;
+  margin: auto;
+  color: black;
+
+}
+
+container {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+iframe.map {
+  width: 100%;
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  text-align: center;
+  background-color: white;
+  color: rgb(27, 38, 70);
+
+}
+
+.center {
+  text-align: center;
+}
